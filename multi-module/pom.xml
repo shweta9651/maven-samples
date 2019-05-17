@@ -23,6 +23,11 @@
 
   <distributionManagement>
     <repository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://169.50.188.43:30855/</url>
+        </repository>
+           <repository>
             <id>nexus-releases</id>
             <name>Nexus Releases</name>
             <url>http://169.50.188.43:30855/repository/maven-releases/</url>
